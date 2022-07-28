@@ -42,7 +42,7 @@ const SpeakerListItem = (speaker: Speaker): JSX.Element => {
         {location}
         <div className="info-col-cta">
           <Link href={speaker.url}>
-            <a className="btn-main">Learn more</a>
+            <a className="btn-main">Find more</a>
           </Link>
         </div>
       </div>
